@@ -1,5 +1,4 @@
 # BankAccount.py
-
 #은행의 계정을 표현한 클래스 
 class BankAccount:
     def __init__(self, id, name, balance):
