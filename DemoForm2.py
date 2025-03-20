@@ -10,8 +10,6 @@ import urllib.request
 #특정 문자열 검색 
 import re 
 
-
-
 #디자인 파일을 로딩:파일명 수정 
 form_class = uic.loadUiType("DemoForm2.ui")[0]
 
@@ -23,7 +21,7 @@ class DemoForm(QMainWindow, form_class):
     #슬롯메서드 추가
     def firstClick(self):
         hdr = {'User-agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.23 (KHTML, like Gecko) Version/10.0 Mobile/14E5239e Safari/602.1'}
-        f = open("c:\\work\\clien.txt", "wt", encoding="utf-8")
+        f = open("clien.txt", "wt", encoding="utf-8")
         for n in range(0,10):
                 #클리앙의 중고장터 주소 
                 data ='https://www.clien.net/service/board/sold?&od=T31&po=' + str(n)
