@@ -1,4 +1,3 @@
-# coding:utf-8
 #웹크롤링 
 from bs4 import BeautifulSoup
 #웹서버에 요청 
