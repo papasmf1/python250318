@@ -10,7 +10,7 @@ driver = webdriver.Chrome()
 driver.get('https://nid.naver.com/nidlogin.login')
 
 # 로그인 창에 아이디/비밀번호 입력
-loginID = "kim"
+loginID = "park"
 clipboard.copy(loginID)
 #mac은 COMMAND, window는 CONTROL
 driver.find_element(By.XPATH,'//*[@id="id"]').send_keys(
