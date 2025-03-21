@@ -2,6 +2,9 @@ import sys
 from PyQt5.QtWidgets import QApplication, QLabel, QPushButton, QVBoxLayout, QWidget, QFileDialog, QTextEdit
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import Qt
+#추가로 설치
+#pip install openai
+#pip install pillow
 import openai
 from PIL import Image
 import base64
@@ -9,6 +12,7 @@ from io import BytesIO
 import requests
 
 # OpenAI API 키 설정
+# 나중에 본인키로 수정 
 openai.api_key = ''
 
 class ImageDescriptionApp(QWidget):
